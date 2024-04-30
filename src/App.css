@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.monster {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  font-weight: bolder;
+  background-color: red;
+  margin: 2em;
+  border-radius: 1em;
+  height: 3em;
+  width: 25em;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.monster:hover {
+  background-color: darkred;
+  transition: 0.2s;
+}
