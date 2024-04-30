@@ -22,7 +22,7 @@ export const BringPokemon = async (
   } catch (error: any) {
 
     if(error.message === `Unexpected token 'N', "Not Found" is not valid JSON`){
-      error.message = "Pokemon not found"
+      error.message = "Pokemon not found on the whole API"
     }
     const answer: DataFetched = {
       success: false,
